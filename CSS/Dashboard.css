@@ -1,0 +1,36 @@
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width:100%;
+    height: 80px;
+}
+
+/* .dropdown-logo{
+
+} */
+
+.searchbar{
+    display: flex;
+    width: 2%;
+    align-items: flex-start;
+    padding-right: 60%;
+
+}
+
+.notification-profile{
+    display: flex;
+    margin-left: 10px;
+}
+
+#sidebar{
+    background-color: #FFFFFF;
+    width: 242px;
+    height: 100vh;
+}
