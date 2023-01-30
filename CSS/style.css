@@ -1,6 +1,6 @@
 body {
-    /* height: 720px;
-    width: 1560px; */
+    height: auto;
+    width: 100%;
     background: #FAFAFA 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -46,7 +46,7 @@ body {
     margin-left: 164px;
 }
 
-p {
+.pr{
     height: 100px;
     width: 500px;
     text-align: left;
@@ -67,6 +67,7 @@ p {
 #login {
     width: 260px;
     height: 33px;
+    margin-left: 154px;
     text-align: left;
     font: normal normal normal 25px/33px Roboto;
     letter-spacing: 0px;
@@ -112,7 +113,7 @@ p {
 }
 
 #content {
-
+    margin-left: 154px;
     height: 20px;
     text-align: left;
     font: normal normal normal 15px/20px Roboto;
@@ -140,6 +141,79 @@ button {
     opacity: 1;
 }
 
+
 #fp {
     margin-left: 170px;
+    margin-top: 42px;
 }
+
+.btn{
+    display:inline-flex;
+}
+
+@media screen and (max-width: 360px)
+{
+    .container{
+        flex-direction: column;
+        margin-top: 3rem;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .left {
+        
+        margin-left: 150%;
+        margin-top: 5px;    
+    }
+
+    .right {
+       margin-left: 100%;
+       width: 60%;
+    
+    }
+
+    #hero {
+        height: 320px;
+        width: 320px;
+        margin-left: 0px;
+        border-radius: 50%;
+        background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 31px #0000000A;
+        border: 5px solid #FFFFFF;
+        opacity: 1;
+        float: left;
+    }
+
+    .right {
+        margin-left: -100% ;
+        /* width: 50%; */
+        height: auto;
+        float: right;
+    
+    }
+    #password {
+        
+        margin-left: 154px;
+        margin-right: 0%;
+        
+           }
+
+   .btn{
+    display: inline-block;
+
+   }
+
+   #fp{
+    
+    margin-top: 19%;
+   }
+/* 
+   #button{
+        
+   } */
+  
+   
+
+}
+
