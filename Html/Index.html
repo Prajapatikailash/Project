@@ -1,33 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML Training Assignment</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
-
 <body>
-    <div class="container">
+    <div id="container">
         <div class="left">
-            <img id="hero" src="/images/hero-image.png">
+            <img src="/images/hero-image.png" alt="hero-image">
         </div>
         <div class="right">
-            <div id="logo">
-                <img src="/images/header-logo.svg">
+            <div class="top">            
+                <img src="/images/logo.svg" alt="logo">
             </div>
-            <p class="pr">
-                We are <span id="expert">expert</span> in business,
-                marketing, growth, &sales.
-            </p>
-            <p id="login">Login into your account</p>
-            <input id="username" type="text" name="Username" placeholder="Username">
-            <input id="password" type="password" name="password" placeholder="password">
-            <div class="btn">
-                <button id="button" type="button" name="button">Login</button>
-                <a href="#" id="fp">Forget password?</a>
-            </div>
-            <p id="content">Are you a new member?<span id="red"> Register here?</span></p>
+            <p class="top1">We are <span><strong>experts</strong></span> in business, marketing, growth, & sales.</p>
+            <p class="login-text">Login into your account</p>
+            <form>
+                <input type="text" name="Username" placeholder="Username"> <br>
+                <input type="password" name="Password" placeholder="Password"> <br>
+                <div class="forgot">
+                    <button>Login</button>
+                    <p>Forgot Password?</p>
+                </div>
+                <div class="bottom">
+                    <p class="member">Are you a new Member?</p>
+                    <p class="register">Register here</p>
+                </div>
+            </form>
         </div>
     </div>
 </body>
